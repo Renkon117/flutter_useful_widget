@@ -19,3 +19,6 @@ samples, guidance on mobile development, and a full API reference.
 
 各レクチャーのWidgetをLectureと命名しているためimport文を置き換えることでページを表示可能です
 例　コメントアウトしている部分を解除すればTextLectureのコードを再現可能です。
+
+section4 lecture35
+Tab Controllerの宣言方法が変わっているので最新のバージョンでコードを確認してください
