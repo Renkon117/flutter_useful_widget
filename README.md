@@ -14,3 +14,8 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## 開発環境　Flutter 3.13.6
+
+各レクチャーのWidgetをLectureと命名しているためimport文を置き換えることでページを表示可能です
+例　コメントアウトしている部分を解除すればTextLectureのコードを再現可能です。
