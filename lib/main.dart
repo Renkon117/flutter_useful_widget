@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 // 各レクチャーのWidgetをLectureと命名しているためimport文を置き換えることでページを表示可能です
 // 例　コメントアウトしている部分を解除すればTextLectureのコードを再現可能です。
-// import 'package:flutter_useful_widget/pages/section2/scaffold_lecture.dart';
+import 'package:flutter_useful_widget/pages/section2/scaffold_lecture.dart';
 // import 'package:flutter_useful_widget/pages/section2/text_lecture.dart';
 // import 'package:flutter_useful_widget/pages/section2/app_bar_lecture.dart';
 // import 'package:flutter_useful_widget/pages/section2/image_lecture.dart';
@@ -55,7 +55,11 @@ import 'package:flutter/material.dart';
 // import 'package:flutter_useful_widget/pages/section5/switch_lecture.dart';
 
 // section6
-import 'package:flutter_useful_widget/pages/section6/hero_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section6/hero_lecture.dart';
+
+// section7
+// import 'package:flutter_useful_widget/pages/section7/future_builder_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section7/stream_builder_lecture.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,7 +1,10 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 class Lecture extends StatefulWidget {
   const Lecture({super.key, required this.title});
+
   final String title;
 
   @override
@@ -9,12 +12,13 @@ class Lecture extends StatefulWidget {
 }
 
 class _LectureState extends State<Lecture> {
+  final StreamController<int> controller = StreamController();
+
   int _counter = 0;
 
   void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
+    _counter++;
+    controller.sink.add(_counter);
   }
 
   @override
@@ -31,10 +35,21 @@ class _LectureState extends State<Lecture> {
             const Text(
               'You have pushed the button this many times:',
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
+            StreamBuilder<int>(
+                stream: controller.stream,
+                builder: (context, snapshot) {
+                  if (snapshot.hasData) {
+                    return Text(
+                      '${snapshot.data}',
+                      style: Theme.of(context).textTheme.headlineMedium,
+                    );
+                  }
+
+                  return Text(
+                    '0',
+                    style: Theme.of(context).textTheme.headlineMedium,
+                  );
+                }),
           ],
         ),
       ),
