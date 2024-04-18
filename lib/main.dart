@@ -37,10 +37,25 @@ import 'package:flutter/material.dart';
 // import 'package:flutter_useful_widget/pages/section4/page_view_lecture.dart';
 // import 'package:flutter_useful_widget/pages/section4/refresh_indicator_lecture.dart';
 // import 'package:flutter_useful_widget/pages/section4/scroll_bar_lecture.dart';
-import 'package:flutter_useful_widget/pages/section4/tab_bar_view_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section4/tab_bar_view_lecture.dart';
 
 // section5
+// import 'package:flutter_useful_widget/pages/section5/text_field_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section5/gesture_detector_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section5/elevated_button_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section5/icon_button_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section5/outlined_button_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section5/text_button_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section5/drop_down_button_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section5/pop_up_menu_button_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section5/slider_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section5/back_button_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section5/checkbox_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section5/radio_lecture.dart';
+// import 'package:flutter_useful_widget/pages/section5/switch_lecture.dart';
 
+// section6
+import 'package:flutter_useful_widget/pages/section6/hero_lecture.dart';
 
 void main() {
   runApp(const MyApp());
